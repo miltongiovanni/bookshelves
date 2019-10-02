@@ -1,1 +1,15 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-sm bg-light navbar-light flex-column flex-md-row">
+    <ul class="nav navbar-nav">
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="books" class="nav-link">Livres</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="auth/signup" class="nav-link">Créer un compte</a>
+      </li>
+      <li routerLinkActive="active" class="nav-item">
+        <a routerLink="auth/signin" class="nav-link">Connexion</a>
+      </li>
+    </ul>
+</nav>
